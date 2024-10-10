@@ -25,7 +25,7 @@ For create a .exe file
 pip install pyinstaller
 ```
 ```
-pyinstaller .\app.py --clean --add-data="assets;assets" --onefile --windowed --namesnake --icon=assets/icon.ico   
+pyinstaller .\app.py --clean --add-data="assets;assets" --onefile --windowed --name snake --icon=assets/icon.ico   
 ```
 
 See the .exe file in folder into dist/snake.exe
